@@ -1,5 +1,5 @@
 # Mikroservis Mimarisinin Ortaya Çıkışı
-Mikroservis mimarisi,yazılım geliştirme süreçlerinde ortaya çıkan bazı temel sournlara çözüm sunmak amacıyla geliştirilmiştir.Bu sorunlar arasında
+Mikroservis mimarisi,yazılım geliştirme süreçlerinde ortaya çıkan bazı temel sourunlara çözüm sunmak amacıyla geliştirilmiştir.Bu sorunlar arasında
 - Kod Karmaşıklığı
 - Dağıtım ve güncelleme zorlukları
 - Sınırlı ölçeklenebilirlik
@@ -75,7 +75,8 @@ Bir e-ticaret platformu ürün arama, ürün kataloğu, alışveriş sepeti, yö
 
 # Mikroservisler Arasında İletişim Nasıl Gerçekleşir
 
-Mikroservisler arasında iletişim hem senkron hem de asenkron olarak gerçekleşebilir. Senkron iletişimde bir servis diğer servise doğrudan istek gönderir ve cevap bekler. Genelde kullanılan teknolojiler Rest API, gRPC.
+Mikroservisler arasında iletişim hem senkron hem de asenkron olarak gerçekleşebilir.
+Senkron iletişimde bir servis diğer servise doğrudan istek gönderir ve cevap bekler. Genelde kullanılan teknolojiler Rest API, gRPC.
 
 Asenkron iletişimde ise bir mikroservis, başka bir mikroservise mesaj gönderir ama cevap beklemeden işine devam eder. Genelde kullanılan teknolojiler Mesaj Kuyrukları, Event-driven sistemler.
 
@@ -107,6 +108,7 @@ Asenkron iletişimde ise bir mikroservis, başka bir mikroservise mesaj gönderi
 - **Docker - Paketleme Aracı:** Uygulamayı konteyner içine koyar, her yerde aynı şekilde çalışma sağlar.  
 - **Kubernetes - Orkestrasyon ve Yönetim:** Dockerla paketlenen servisleri büyük ölçekte otomatik yönetmeyi sağlar.  
 - **Helm:** Kubernetes konfigürasyonlarını kolayca yönetmek ve dağıtmak için kullanılır.
+- 
 
   ### Kaynakça:
   [https://www.geeksforgeeks.org/system-design/microservices/]
